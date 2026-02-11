@@ -18,8 +18,8 @@ export const LandingPage = () => (
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-display font-bold mb-12">Opérateurs Supportés</h2>
           <div className="flex flex-wrap justify-center items-center gap-12 md:gap-24">
-            <img src="../../g_mirror_logos_png/moov_africa_gabon_telecom_logo.jpg" alt="Moov" className="h-24 transition-all" />
-            <img src="../../g_mirror_logos_png/R.jpg" alt="Airtel" className="h-20 transition-all" />
+            <img src="/moov_africa_gabon_telecom_logo.jpg" alt="Moov" className="h-24 transition-all" />
+            <img src="/R.jpg" alt="Airtel" className="h-20 transition-all" />
           </div>
         </div>
       </section>
