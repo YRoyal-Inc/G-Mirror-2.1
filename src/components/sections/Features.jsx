@@ -53,7 +53,7 @@ export const Features = () => {
           <div className="lg:w-1/2 relative">
             <div className="aspect-square bg-premium-gradient rounded-[3rem] rotate-3 absolute inset-0 opacity-10" />
             <img 
-              src="../../g_mirror_logos_png/jeune_professionnel.png" 
+              src="/jeune_professionnel.png" 
               alt="Dashboard Preview" 
               className="rounded-[3rem] shadow-2xl relative z-10"
             />
