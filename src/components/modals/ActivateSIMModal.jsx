@@ -49,14 +49,14 @@ export const ActivateSIMModal = ({ isOpen, onClose }) => {
                 onClick={() => { setOperator('moov'); setStep(2); }}
                 className="p-6 border-2 border-gray-100 rounded-3xl hover:border-primary hover:bg-primary/5 transition-all text-center group"
               >
-                <img src="../../g_mirror_logos_png/moov_africa_gabon_telecom_logo.jpg" alt="Moov" className="h-12 mx-auto mb-4 object-contain" />
+                <img src="/moov_africa_gabon_telecom_logo.jpg" alt="Moov" className="h-12 mx-auto mb-4 object-contain" />
                 <span className="font-bold text-gray-700">Moov Africa</span>
               </button>
               <button 
                 onClick={() => { setOperator('airtel'); setStep(2); }}
                 className="p-6 border-2 border-gray-100 rounded-3xl hover:border-primary hover:bg-primary/5 transition-all text-center"
               >
-                <img src="../../g_mirror_logos_png/R.jpg" alt="Airtel" className="h-12 mx-auto mb-4 object-contain" />
+                <img src="/R.jpg" alt="Airtel" className="h-12 mx-auto mb-4 object-contain" />
                 <span className="font-bold text-gray-700">Airtel Gabon</span>
               </button>
             </div>
